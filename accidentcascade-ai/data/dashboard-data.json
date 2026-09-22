@@ -1,0 +1,13 @@
+{
+  "activeIncidents": 2,
+  "averageLeadTimeMinutes": 7.8,
+  "risks": [
+    {"id":"seed-1","road":"Kathmandu Valley, Nepal","score":88,"level":"Critical","recommendation":"Activate emergency response and issue public warning","model":"EGNN-IHHO-MVICP","hazard":"Earthquake","latitude":27.7172,"longitude":85.3240},
+    {"id":"seed-2","road":"Pokhara, Nepal","score":81,"level":"Critical","recommendation":"Evacuate exposed slopes and restrict hillside routes","model":"EGNN-IHHO-MVICP","hazard":"Landslide","latitude":28.2096,"longitude":83.9856},
+    {"id":"seed-3","road":"Biratnagar, Nepal","score":72,"level":"High","recommendation":"Deploy flood alerts and prepare evacuation support","model":"HPSGWO-AGRU-SARE","hazard":"Flood","latitude":26.4525,"longitude":87.2718},
+    {"id":"seed-4","road":"Dharan, Nepal","score":64,"level":"High","recommendation":"Monitor hillside movement and close exposed roads","model":"HPSGWO-AGRU-SARE","hazard":"Landslide","latitude":26.8122,"longitude":87.2836},
+    {"id":"seed-5","road":"Siliguri, West Bengal","score":55,"level":"Moderate","recommendation":"Issue river-level advisory and monitor low-lying areas","model":"IWOFS-BiLSTM-SAP","hazard":"Flood","latitude":26.7271,"longitude":88.3953},
+    {"id":"seed-6","road":"Gangtok, Sikkim","score":42,"level":"Moderate","recommendation":"Inspect vulnerable slopes and maintain travel advisory","model":"IWOFS-BiLSTM-SAP","hazard":"Landslide","latitude":27.3389,"longitude":88.6065},
+    {"id":"seed-7","road":"Pithoragarh, Uttarakhand","score":35,"level":"Moderate","recommendation":"Continue rainfall and seismic activity observation","model":"IWOFS-BiLSTM-SAP","hazard":"Earthquake","latitude":29.5829,"longitude":80.2182}
+  ]
+}
